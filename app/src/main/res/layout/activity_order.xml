@@ -25,18 +25,18 @@
             android:layout_width="255dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginRight="30dp"
             android:gravity="center"
-            android:paddingLeft="20dp"
             android:text="@string/ORDER"
+            android:layout_marginLeft="30sp"
             android:textColor="@color/orange"
             android:textSize="30sp"
             android:textStyle="bold" />
         <ImageView
-            android:layout_width="70dp"
+            android:layout_width="50dp"
+            android:layout_marginLeft="35sp"
             android:layout_height="match_parent"
             android:id="@+id/ivchart"
-            android:src="@drawable/baseline_ssid_chart_24"
+            android:src="@drawable/baseline_insert_chart_outlined_24"
             app:tint="@color/orange" />
     </LinearLayout>
     <LinearLayout
